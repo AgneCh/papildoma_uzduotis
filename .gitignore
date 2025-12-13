@@ -4,5 +4,5 @@ program
 
 .vscode/
 
-# test files
 test.txt
+words.txt

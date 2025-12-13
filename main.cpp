@@ -14,7 +14,7 @@ int main() {
 
         switch (choice) {
         case 1:
-            runWordCount("test.txt", "words.txt");
+            runWordCount("How maths can help you wrap your presents better.txt", "words.txt");
             break;
         }
     } while (choice != 4);

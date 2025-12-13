@@ -16,14 +16,23 @@ static std::string normalize(const std::string& rawWord) {
 
 void runWordCount(const std::string& inputFile,
                   const std::string& outputFile) {
-    std::ifstream in(inputFile);
 
+    std::ifstream in(inputFile);
+    std::ofstream out(outputFile);
+
+    std::map<std::string, int> wordCounts;
     std::string rawWord;
 
     while (in >> rawWord) {
         std::string word = normalize(rawWord);
         if (!word.empty()) {
-            std::cout << word << "\n";
+            wordCounts[word]++;
+        }
+    }
+
+    for (const auto& [word, count] : wordCounts) {
+        if (count > 1) {
+            out << word << " " << count << "\n";
         }
     }
 }
