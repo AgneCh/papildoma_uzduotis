@@ -1,0 +1,53 @@
+How maths can help you wrap your presents better
+
+Wrapping awkwardly shaped Christmas presents is always a headache, but here's the formula for perfect gift wrap. 
+
+You've carefully chosen the presents. You have scissors, tape and even some rolls of suitably jolly paper at the ready. For all but the most accomplished of festive elves, however, your gift is still likely to end up chaotically cocooned in a patchwork of wrapping and tangle of tape. 
+
+This is probably why wrapping Christmas presents is rarely a job that many people relish. This year, however, you might prefer to add a ruler and calculator to your festive wrapping supplies. It is time to employ the power of mathematics this Christmas. 
+
+Thinking outside the box 
+
+Perhaps the easiest item on your wrapping list this year will be those cube-shaped boxes. But many of us still struggle to cut the right amount of paper to cover even this simplest of gift-shapes. We might end up with swathes of extra paper folded messily in at the ends or find we come up short and need to apply some surgical skills to fashion an insert to ensure total coverage.   
+
+There is, however, a neat formula developed by Sara Santos, a mathematician at King's College London in the UK, that can help not only reduce waste but also match some patterns together at the join. First measure your box's height and multiply that by 1.5. Then measure the diagonal of your box's largest side from corner to corner – adding the two figures together. This gives you the dimensions of a square of wrapping paper you will need to cut.   
+
+So, for example, if you're wrapping a cube that measures 4.5cm (1.7in) diagonally and 3cm (1.2in) tall, you need to cut a 9cm x 9cm (3.5in x 3.5in) square of paper. But here comes the clever bit…   
+
+When you place your gift onto the paper, rotate it so it sits diagonally in the centre of the paper. Then carefully bring the four corners of the paper into the centre, tucking in the tabs at each corner of your box under the larger flaps as you fold them in. You should be able to secure the paper with just three small pieces of tape, and if you're using stripey paper, the pattern may even match up at the joins. 
+
+This method can sometimes be used for cuboids too. "However, if your paper is square, it's not always true that the diagonal wrap is better," says Holly Krieger, professor of mathematics at the University of Cambridge. For example, if you have a box that measures 2cm x 4cm x 8cm (0.8in x 1.6in x 3in), using the diagonal method requires a 14 x 14cm (5.5in x 5.5in) square of paper, but it's possible to wrap the same gift in a more conventional way using a 12cm (4.7in) square of paper, she explains. 
+
+The diagonal positioning trick is most useful if you have a spare square of paper that doesn't quite fit around a cube in the traditional way. Turning it diagonally may allow it to cover the present. Similarly, rectangles of paper that don't quite cover cuboid-shaped presents like a shoebox can be coaxed around it if you position the box diagonally. 
+
+Acute solution 
+
+The method sometimes works for triangular prisms too. Measuring the height of the triangle at the end of the prism packaging, doubling it and adding it to the overall length of the box gives you the perfect length of paper to cut to cover its triangular ends with paper three times for a flawless finish. 
+
+To wrap a tube of sweets or another cylindrical gift with very little waste, measure the diameter (width) of the circular end and multiply it by Pi (3.14…) to find the amount of paper needed to encircle your gift with wrap. Then measure the length of the tube and add on the diameter of one circle to calculate the minimum length of paper needed. Doing this should mean the paper meets exactly at the centre of each circular end of the gift requiring one small piece of tape to secure it. But it's best to allow a little extra paper to ensure the shape is completely covered or risk spoiling the surprise. 
+
+Circling back 
+
+If you have bought anyone a ball, then woe – spheres are arguably the hardest shape to wrap. It's impossible to cover a ball smoothly using a piece of paper, not only because the properties of paper stop it from being infinitely bendable, but because of the hairy ball theorem, says Sophie Maclean, a maths communicator and PhD student at King's College London. The theorem explains it is impossible to comb hair on a ball or sphere flat without creating at least one swirl or cowlick. 
+
+"If you think about putting wrapping paper round a ball, you're not going to be able to get it smooth all the way round," says Maclean. "There's going to have to be a bump or gap at some point. Personally, I quite like being creative with wrapping and this is where I would embrace it. Tie a bow around it or twist the paper to get a Christmas cracker or a present that looks like a sweet."   
+
+If paper efficiency is your goal when wrapping a football, you may want to experiment with a triangle of foil. An international team of scientists studied how Mozartkugel confectionery – spheres of delicious marzipan encased in praline and coated in dark chocolate – are wrapped efficiently in a small piece of foil. They observed that minimising the perimeter of the shape reduces waste, making a square superior to a rectangle of foil with the same area. 
+
+Creating petal shapes are another way of efficiently covering a sphere – although it would require an infinite number of petals to do this particularly neatly. The researchers discovered, however, that an equilateral-triangle wrapping that is even more efficient. "It's area savings of 0.1% may prove significant on the many millions of Mozartkugel consumed each year," they wrote, with a possible 20% reduction in material needed to cover a spherical shape. 
+
+We have probably all struggled to wrap hard, irregular shaped presents like a mug, which is an open cylinder with a protruding handle. "There's no solid maths to describe every possible shape. This is one of those situations where experimentation is almost a bit more useful than trying to rigorously describe it mathematically," says Krieger. 
+
+One solution might be to bundle a difficult shaped present with another gift to try and create a more regular shape that's more manageable to wrap. 
+
+Maximum efficiency without cutting corners 
+
+Wrapping two similar sized presents together is more efficient than wrapping them separately, as it requires less paper, but wrapping two gifts of very different shapes or sizes tends to require more paper, according to Krieger. 
+
+Patience plus trial and error is needed when grouping shapes together. Even mathematicians struggle. Some "packing problems" including the most efficient way of packing identical squares inside a larger square or rectangle are known as "NP-hard" to solve, which means they are extremely difficult, or even practically impossible to solve using the most powerful computers. It's a surprisingly active area of research among academics. 
+
+Arranging spheres to take up as little space as possible is also fiendishly difficult, so it's no wonder why we might struggle to wrap a bag of golf balls efficiently. But fortunately mathematicians are on the case – searching out the best way of doing it too – unfortunately for those with ordered minds, the best solution to date seems to require an unstructured, rather random packing approach, along with some eye-popping calculations. 
+
+Practicing Sara Santos's method may save paper, sticky tape and impress your friends, but sometimes even mathematicians are tempted to take short cuts when faced with wrapping particularly tricky presents like balls. 
+
+"I might just buy a box," jokes Krieger.
