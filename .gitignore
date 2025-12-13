@@ -1,0 +1,8 @@
+program
+*.o
+*.out
+
+.vscode/
+
+# test files
+test.txt
