@@ -28,10 +28,10 @@ int main()
         switch (choice)
         {
         case 1:
-            runWordCount("test.txt", "countedWords.txt");
+            runWordCount("How maths can help you wrap your presents better.txt", "countedWords.txt");
             break;
         case 2:
-            runCrossReference("test.txt", "crossReference.txt");
+            runCrossReference("How maths can help you wrap your presents better.txt", "crossReference.txt");
             break;
         case 3:
             runUrlFinder("understandingURLs.txt", "URLlist.txt");
