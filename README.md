@@ -5,13 +5,13 @@ Egzamino (išankstinė) užduotis
 
 Užduočiai buvo pasirinktas BBC straipsnis [How maths can help you wrap your presents better](https://www.bbc.com/future/article/20251212-how-maths-can-help-you-wrap-your-presents-better). Tekstas nukopijuotas į txt failą.  
 
-Užduočiai pasirinktas `std::map`, nes jis leižia patogiai saugoti skirtingus žodius kaip raktus ir jų pasikartojimų skaičių kaip reikšmes (["žodis":"pasikartojimų skaičius"]). Map neleidžia raktams dubliuotis, to dėl saugome tik unikalius žožius.  
+Užduočiai pasirinktas `std::map`, nes jis leižia patogiai saugoti skirtingus žodius kaip raktus ir jų pasikartojimų skaičių kaip reikšmes ( ["žodis" : "pasikartojimų skaičius"] ). `std::map` neleidžia raktams dubliuotis, todėl saugomi tik unikalūs žodžiai.  
 
 
 # Cross-reference lentelė
 Užduočiai buvo pasirinktas straipsnis [Understanding URLs](https://www4.uwsp.edu/english/cwilliams/docu_online.html). Tekstas nukopijuotas į txt failą.
 
-Šiai užduočiai atlikti buvo pasinaudotas `std::map` iš WordCount.cpp, kad surasti unikalius žodžius ir jų kartojimosi reikšmę (kadangi tis reikalauja i lentelė įterpti žodius,kurie kartojosi daugiau nei 1 kartą).  
+Šiai užduočiai atlikti buvo naudotas `std::map` sprendimas iš WordCount.cpp, kad surasti unikalius žodžius ir jų kartojimosi reikšmę (kadangi užduotis reikalauja į lentelę įterpti tik žodius, kurie kartojasi daugiau nei 1 kartą).  
 `std::set` buvo naudojamas eilučių numeriams saugoti cross-reference dalyje, nes jis neleidžia pasikartojančių reikšmių ir automatiškai rikiuoja reikšmes didėjimo tvarka. Todėl nereikia papildomo tikrinimo ar rūšiavimo išvedimo metu.
 
 
@@ -23,7 +23,7 @@ Užduočiai buvo pasirinktas straipsnis [Understanding URLs](https://www4.uwsp.e
 Paleidus programą vartotojas mato meniu.  
 ![menu](./screenshots/image.png)  
 
-Suvedus ***1.*** programa sugeneruoja failą su žodžiais ir kiek kartų jis pasikartojo tekste.  
+Suvedus ***1.*** programa sugeneruoja failą su žodžiais ir jų pasikartojimo skaičiumi.  
 ![wordCount output](./screenshots/image-1.png)  
 
 Suvedus ***2.*** programa sugeneruoja failą su cross-reference tipo lentele. Joje nurodytas žodis ir kuriose teksto eilutėse jį galima rasti.  
