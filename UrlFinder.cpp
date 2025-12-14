@@ -6,17 +6,18 @@
 #include <string>
 #include <regex>
 
-void runUrlFinder(const std::string& inputFile,
-                  const std::string& outputFile)
+void runUrlFinder(const std::string &inputFile,
+                  const std::string &outputFile)
 {
     std::ifstream in(inputFile);
 
-    const std::regex urlPattern(R"(\bwww\.[a-zA-Z0-9]+(\.[a-zA-Z]+)\b)");
+    const std::regex urlPattern(R"(\bwww\.[a-zA-Z]+(\.[a-zA-Z]+)\b)");
 
     std::set<std::string> urls;
     std::string line;
 
-    while (std::getline(in, line)) {
+    while (std::getline(in, line))
+    {
         for (std::sregex_iterator it(line.begin(), line.end(), urlPattern);
              it != std::sregex_iterator();
              ++it)
@@ -26,16 +27,18 @@ void runUrlFinder(const std::string& inputFile,
     }
 
     std::ofstream out(outputFile);
-    if (!out) {
+    if (!out)
+    {
         std::cerr << "Failed to open output file: " << outputFile << "\n";
         return;
     }
 
     // header
-    std::cout << "URLs:\n";
-    std::cout << "-----------\n";
+    out << "URLs:\n";
+    out << "-----------\n";
 
-    for (const auto& url : urls) {
-        std::cout << url << "\n";
+    for (const auto &url : urls)
+    {
+        out << url << "\n";
     }
 }
