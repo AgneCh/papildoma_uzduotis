@@ -1,4 +1,5 @@
 #include "CrossReference.h"
+#include "WordCount.h"
 #include "TextProcessing.h"
 
 #include <iostream>
@@ -7,16 +8,17 @@
 #include <map>
 #include <set>
 
-void runCrossReference(const std::string &inputFile)
+void runCrossReference(const std::string &inputFile, const std::string &outputFile)
 {
+    auto wordCounts = countWordsFromFile(inputFile);
+    std::map<std::string, std::set<int>> wordLines;
+
     std::ifstream in(inputFile);
     if (!in)
     {
         std::cerr << "Failed to open: " << inputFile << "\n";
         return;
     }
-
-    std::map<std::string, std::set<int>> wordLines;
 
     std::string line;
     int lineNumber = 0;
@@ -31,23 +33,24 @@ void runCrossReference(const std::string &inputFile)
         while (iss >> rawWord)
         {
             std::string word = normalize(rawWord);
-            if (!word.empty())
+            if (!word.empty() && wordCounts[word] > 1)
             {
                 wordLines[word].insert(lineNumber);
             }
         }
     }
 
+    std::ofstream out(outputFile);
     for (const auto &[word, lines] : wordLines)
     {
         if (lines.size() > 1)
         {
-            std::cout << word << ": ";
+            out << word << ": ";
             for (int ln : lines)
             {
-                std::cout << ln << " ";
+                out << ln << " ";
             }
-            std::cout << "\n";
+            out << "\n";
         }
     }
 }

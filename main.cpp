@@ -19,10 +19,10 @@ int main()
         switch (choice)
         {
         case 1:
-            runWordCount("test.txt", "words.txt");
+            runWordCount("test.txt", "countedWords.txt");
             break;
         case 2:
-            runCrossReference("test.txt");
+            runCrossReference("test.txt", "crossReference.txt");
             break;
         }
 
