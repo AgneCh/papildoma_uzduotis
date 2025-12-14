@@ -12,11 +12,11 @@ Užduočiai pasirinktas `std::map`, nes jis leižia patogiai saugoti skirtingus 
 Užduočiai buvo pasirinktas straipsnis [Understanding URLs](https://www4.uwsp.edu/english/cwilliams/docu_online.html). Tekstas nukopijuotas į txt failą.
 
 Šiai užduočiai atlikti buvo naudotas `std::map` sprendimas iš WordCount.cpp, kad surasti unikalius žodžius ir jų kartojimosi reikšmę (kadangi užduotis reikalauja į lentelę įterpti tik žodius, kurie kartojasi daugiau nei 1 kartą).  
-`std::set` buvo naudojamas eilučių numeriams saugoti cross-reference dalyje, nes jis neleidžia pasikartojančių reikšmių ir automatiškai rikiuoja reikšmes didėjimo tvarka. Todėl nereikia papildomo tikrinimo ar rūšiavimo išvedimo metu.
+Taip pat buvo naudojamas `std::map` konteineis su `std::set` eilučių numeriams, nes `std::set` neleidžia pasikartojančių reikšmių ir automatiškai rikiuoja reikšmes didėjimo tvarka. Todėl nereikia papildomo tikrinimo ar rūšiavimo išvedimo metu.
 
 
 # URL adresų suradimas tekste
-Šiai uzduoties daliai buvo naudojamas
+Šiai uzduoties daliai buvo naudojamas `std::set` konteineris, neleidžia pasikartojančių reikšmių ir automatiškai surikiuoja URL adresus abėcėlės tvarka.  
 
 
 ## Kaip veikia programa
