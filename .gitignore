@@ -5,4 +5,5 @@ program
 .vscode/
 
 test.txt
-words.txt
+countedWords.txt
+crossReference.txt

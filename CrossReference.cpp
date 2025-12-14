@@ -7,6 +7,7 @@
 #include <sstream>
 #include <map>
 #include <set>
+#include <iomanip>
 
 void runCrossReference(const std::string &inputFile, const std::string &outputFile)
 {
@@ -14,12 +15,6 @@ void runCrossReference(const std::string &inputFile, const std::string &outputFi
     std::map<std::string, std::set<int>> wordLines;
 
     std::ifstream in(inputFile);
-    if (!in)
-    {
-        std::cerr << "Failed to open: " << inputFile << "\n";
-        return;
-    }
-
     std::string line;
     int lineNumber = 0;
 
@@ -41,16 +36,22 @@ void runCrossReference(const std::string &inputFile, const std::string &outputFi
     }
 
     std::ofstream out(outputFile);
-    for (const auto &[word, lines] : wordLines)
-    {
-        if (lines.size() > 1)
-        {
-            out << word << ": ";
-            for (int ln : lines)
-            {
-                out << ln << " ";
-            }
-            out << "\n";
+
+    // header
+    out << std::left << std::setw(15) << "Word"
+        << "Line numbers\n";
+    out << std::string(15, '-') << ""
+        << std::string(15, '-') << "\n";
+
+    // rows
+    for (const auto& [word, lines] : wordLines) {
+        out << std::left << std::setw(15) << word;
+        bool first = true;
+        for (int lineNum : lines) {
+            if (!first) out << ", ";
+            out << lineNum;
+            first = false;
         }
+        out << "\n";
     }
 }
