@@ -40,11 +40,14 @@ void runCrossReference(const std::string &inputFile)
 
     for (const auto &[word, lines] : wordLines)
     {
-        std::cout << word << ": ";
-        for (int ln : lines)
+        if (lines.size() > 1)
         {
-            std::cout << ln << " ";
+            std::cout << word << ": ";
+            for (int ln : lines)
+            {
+                std::cout << ln << " ";
+            }
+            std::cout << "\n";
         }
-        std::cout << "\n";
     }
 }
