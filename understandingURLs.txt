@@ -1,0 +1,93 @@
+Note: The following discussion concerns how to cite web sites and web pages.  It does not concern how to cite sources found in electronic databases.  Articles found in a library database, for instance, follow a different set of rules.  If you are uncertain of the difference between a web page or web site source and a source found in an electronic database, please refer to the section titled Web Pages vs. Online Databases.
+
+Understanding URLs
+
+In order to understand how to cite a web site, it is important to understand how web sites are organized and how that organization is represented through web addresses or URLs (Uniform Resource Locators).
+
+Citing a web site is really not all that different from citing a book if you understand the basics of how both a book and web site is arranged. 
+
+While there is some complexities to some URLs, we will simplify what the various “parts” of a URL stand for into 3 discrete parts (these are not in fact absolutely accurate descriptions of what every URL actually signifies, but, for the purposes of citation, the oversimplification should be sufficient):
+
+A typical URL begins with a server location usually preceded by an http:// (hyper text transport protocol—the protocol used by most world wide web pages)
+Most URLs also contain folder names
+Most URLs end with the name of a file or, in other words, the file name of the page that you are currently looking at
+
+In other words a URL like http://www.uwsp.edu/english/faculty.html is the address for a web page titled faculty.html, which is contained within a folder titled english, which is located on a server called www.uwsp.edu.
+
+Longer URLs with more slashes usually just indicate additional folders.  So, http://www.uwsp.edu/english/cwilliams/citation.html simply indicates that the page that you are looking at (citation.html) is within a folder called cwilliams, which in turn is within another folder called English, which is located on a server called www.uwsp.edu.
+
+If you understand this basic concept, you will also easily understand the correlation between a web site and a book.
+
+A web site is like a book in that it is a whole “text” that is usually organized into smaller more discrete units.  In a book, these are called “chapters” or “articles.” On a web site, these are called web pages.  Usually, a web page, like an article contains a specified topic or theme that is a part of the larger focus of the site.  So, we can cite a site as if it were a book and a page as if it were a chapter or article within that book.
+
+In this manner, most web sites can be cited by describing them in a traditional fashion in MLA.
+
+
+A Basic Web Site MLA Entry
+Thus, in a fashion quite similar to a book, we find that most web sites follow a format of this sort:
+
+last name, first name (or corporate author).  "title of page."  title of site.  date viewed (day month year).  <URL>.    
+
+Locating a Page’s Author
+
+Authorship is often one of the more difficult things to locate when looking at a web site and often no single author is attributed to a web site’s contents, in which case the author may be seen as a corporate author—in other words, the organization responsible for putting the site together may be seen as the “author” of its particular pages.
+
+Take a look at the following sites and try to locate their authors:
+
+·        http://www.warnerbros.com/rl_cmp/new_phil_wakeup.html
+
+·        http://www.puzzling.org/school/collection.html
+
+·        http://www.cnn.com/2003/US/Northeast/10/30/garage.collapse/index.html
+
+Example 1: You likely had little difficulty locating the authors of the first page, Frances Flannery-Dailey and Rachael Wagner, as their names appeared following the title of their article or web page.  This is usually the first place to look for an author: at the top or bottom of a given article or page.
+
+Example 2: The second page is a bit trickier.  While the title of the article there is clearly given, the author’s name is neither at the top or bottom of the page.  A little exploration to find the author of this article’s name is necessary.  Clicking on the link to “Daisy Home” at the top of the page will take you to this site that this page is contained within.
+
+You can tell that is the case because the server name in the URL has not changed, the page is located at http://www.puzzling.org/school/collection.html and Daisy Home is located at http://www.puzzling.org/.  Also note that if there had been no link to “Daisy Home,” you could have simply clicked in the URL field and cut off first the file name from the URL, shortening it to http://www.puzzling.org/school/ and hitting enter to try to find the home page of this web site.  Having not found the home page there, shortening the address to http://www.puzzling.org/ would have gotten you to the home page.  In other words, you can search for a web site title using the URL.
+
+Even at that, locating an author may not be obvious yet.  The site is titled The House That Mos Built, indicating that, perhaps the author’s name is Mos?  Using common sense, though, if you take a look at the links on that home page, you will see one titled “All about me, me, me.”  Clicking on that link reveals that the owner of the web site and author of this essay is named Mauricio Ortiz Sanchez (Mos is obviously his initials), which is the name you can then use for your citation of this page: Mauricio Ortiz Sanchez.
+
+Example 3: The third example is, perhaps, simpler than the last two, but its authorship is also a bit less overtly obvious.  While some articles located on a news related web site like CNN normally would contain a byline stating the reporter’s name that wrote this article, this article contains no author’s name either following its title or at the bottom of the article.  Clicking on the “Home Page” link offers no more insight, nor would shortening the URL.  In this case, then, the author is obviously a CNN or several CNN staff writers.  We will consider this article then to have corporate authorship and will use the name CNN or CNN.com as the web site’s title would suggest as the author.
+
+Locating a Page’s Title
+
+Finding web page titles is usually fairly simple.  The title of a page is usually located near the top of the page and describes the page’s contents.  In the three examples used in “Locating a Page’s Author,” the titles of the pages are: "Wake Up!  Gnosticism and Buddhism in the Matrix," "Towards a Definition of the Collection-Object," and "4 Dead in N.J. Parking Garage Collapse" respectively.  All of these titles are located near the top of the page.  In the case of the third example, titles like CNN.com/U.S. exist but they are headers that exist throughout the site that help a reader understand that all the various articles on this site are contained within that larger site.
+
+Occasionally, you may run into a page that contains no obvious title, though, as it simply contains the text of an article and nothing more.  If that is the case refer to the title given in the blue (assuming your desktop is set to Windows’ default colors—if it is not, it may be another color, but it will be the bar at the top of this window that contains your browser’s icon and name) at the top of your browser.  If you take a look at the top of this page, for instance, the bar reads Microsoft Internet Explorer – MLA Online External Citation.  If there were no obvious title on the page, you would cite this page as “MLA Online External Citation.”
+
+Please note that I use quotation marks to indicate the title of a web page as opposed to italics to indicate the name of a web site.  This is the “article” that you are citing, and hence it is titled as an article would be in quotation marks.  Whereas a web site is the larger “book” that that article is contained within and would thus be indicated with italics.
+
+Locating a Site’s Title
+We have discussed web site titles in the previous two sections and addressed them to some degree in those earlier sections.  Taking a look once more at our earlier examples, though, see if you can find the web site’s title on which those pages are contained:
+
+·        http://www.warnerbros.com/rl_cmp/new_phil_wakeup.html
+
+·        http://www.puzzling.org/school/collection.html
+
+·        http://www.cnn.com/2003/US/Northeast/10/30/garage.collapse/index.html
+
+Locating Example 3’s web site’s title is quite easy as previously noted.  Clicking on “Home Page” on that page returns you to a page called Cnn.com—obviously the title of the site.
+
+Example 2’s web site title is also fairly easy to find if you click “Daisy Home” or follow my instructions for shortening URLs.  The site that that article is contained within is The House That Mos Built. 
+
+The final example, Example 3, however, requires that in order to locate the web site, you must shorten the URL address as there is no “Home” link to return you to the pages site.  This example stresses the importance of the URL to properly citing pages and the importance of making sure that you are still within the same site when you click on various links listed on a page.  The server name indicates whether or not you are on a new site or not.  Shortening http://www.warnerbros.com/rl_cmp/new_phil_wakeup.html to http://www.warnerbros.com/rl_cmp/ brings you to a page titled The Matrix Reloaded, the name of the web site that “Wake Up!  Gnosticism and Buddhism in the Matrix" is contained on.  It is not necessary to shorten the URL any more than that as that is the site that this page is held on.  We would only need to shorten it more if we were still unclear as to the overall site name.
+
+Recording the Date Viewed
+The date viewed is the date on which you viewed the web site as opposed to the date that the article was published.  This is important information as web pages are often revised, moved, or deleted.  Even if the page, you cited was revised, moved, or deleted, this date indicates that at least on the day that you looked at it, the text was there and said what you say it said.  All dates in MLA are organized by day month and year.  For example, 23 October 2005 would be correct, not October 23, 2005.
+
+Recording the URL
+ 
+The URL is, of course the address listed in your browser’s address field.  The URL must be the one on which the “title of the page” falls on.  It is the “page number” of your text—the equivalent of the page number ranges that normally end an entry that records a book article or chapter.  The URL is not the URL of the web site. 
+
+Thus, our three example’s URLs are http://www.warnerbros.com/rl_cmp/new_phil_wakeup.html, http://www.puzzling.org/school/collection.html, and http://www.cnn.com/2003/US/Northeast/10/30/garage.collapse/index.html.  They are not http://www.warnerbros.com/ or http://www.warnerbros.com/rl_cmp/, http://www.puzzling.org/, or http://www.cnn.com/ as none of these URLs provide enough information for a reader of your paper to locate the exact location of your specific source.
+
+Sample External Citation of Online Sources
+
+If you were citing our three sources then, based on what we just learned, they should look like this:
+
+Flannery-Dailey, Frances and Rachael Wagner.  "Wake Up!  Gnosticism and Buddhism in the Matrix." The Matrix: Reloaded.  31 October 2003.  <http://www.warnerbros.com/rl_cmp/new_phil_wakeup.html>.
+
+Sanchez, Mauricio Ortiz.  "Towards a Definition of the Collection-Object."  The Lounge That Mos Built."  31 October 2003.  <http://www.puzzling.org/school/collection.html>.
+
+CNN.  "4 Dead in N.J. Parking Garage Collapse."  CNN.com.  31 October 2003.  <http://www.cnn.com/2003/US/Northeast/10/30/garage.collapse/index.html>. www.test.xn--4gbrim

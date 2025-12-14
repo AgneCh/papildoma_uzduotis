@@ -1,5 +1,6 @@
 #include "WordCount.h"
 #include "CrossReference.h"
+#include "UrlFinder.h"
 
 #include <iostream>
 
@@ -23,6 +24,9 @@ int main()
             break;
         case 2:
             runCrossReference("test.txt", "crossReference.txt");
+            break;
+        case 3:
+            runUrlFinder("understandingURLs.txt", "URLlist.txt");
             break;
         }
 
