@@ -3,6 +3,8 @@
 #include "UrlFinder.h"
 
 #include <iostream>
+#include <limits>
+
 
 int main()
 {
@@ -15,7 +17,13 @@ int main()
         std::cout << "3. URL search\n";
         std::cout << "4. Exit\n";
         std::cout << "Choice: ";
-        std::cin >> choice;
+        
+        if(!(std::cin >> choice) || choice > 4){
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cerr << "Invalid input. Please enter a number (1-4). \n";
+            continue;
+        }
 
         switch (choice)
         {
