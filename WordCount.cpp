@@ -5,12 +5,8 @@
 #include <fstream>
 #include <map>
 
-void runWordCount(const std::string& inputFile,
-                  const std::string& outputFile) {
-
+std::map<std::string, int> countWordsFromFile(const std::string& inputFile) {
     std::ifstream in(inputFile);
-    std::ofstream out(outputFile);
-
     std::map<std::string, int> wordCounts;
     std::string rawWord;
 
@@ -20,8 +16,15 @@ void runWordCount(const std::string& inputFile,
             wordCounts[word]++;
         }
     }
+    return wordCounts;
+}
 
-    for (const auto& [word, count] : wordCounts) {
+void runWordCount(const std::string& inputFile,
+                  const std::string& outputFile) {
+
+    std::ofstream out(outputFile);
+
+    for (const auto& [word, count] : countWordsFromFile(inputFile)) {
         if (count > 1) {
             out << word << " " << count << "\n";
         }
