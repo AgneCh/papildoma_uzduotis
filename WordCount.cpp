@@ -9,6 +9,12 @@
 std::map<std::string, int> countWordsFromFile(const std::string &inputFile)
 {
     std::ifstream in(inputFile);
+    if (!in)
+    {
+        std::cerr << "Error: cannot open file " << inputFile << "\n";
+        return {};
+    }
+
     std::map<std::string, int> wordCounts;
     std::string rawWord;
 
@@ -26,6 +32,11 @@ std::map<std::string, int> countWordsFromFile(const std::string &inputFile)
 void runWordCount(const std::string &inputFile,
                   const std::string &outputFile)
 {
+    auto counts = countWordsFromFile(inputFile);
+    if (counts.empty())
+    {
+        return;
+    }
 
     std::ofstream out(outputFile);
 
@@ -35,7 +46,7 @@ void runWordCount(const std::string &inputFile,
     out << std::string(15, '-') << ""
         << std::string(10, '-') << "\n";
 
-    for (const auto &[word, count] : countWordsFromFile(inputFile))
+    for (const auto &[word, count] : counts)
     {
         if (count > 1)
         {

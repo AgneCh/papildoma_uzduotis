@@ -10,8 +10,13 @@ void runUrlFinder(const std::string &inputFile,
                   const std::string &outputFile)
 {
     std::ifstream in(inputFile);
+    if (!in)
+    {
+        std::cerr << "Error: cannot open file " << inputFile << "\n";
+        return;
+    }
 
- const std::regex urlPattern(R"(\b(?:https?://)\S+[^\s,])");
+    const std::regex urlPattern(R"(\b(?:https?://)\S+[^\s.,])");
 
     std::set<std::string> urls;
     std::string line;

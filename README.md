@@ -26,7 +26,7 @@ Suvedus ***1.*** programa sugeneruoja failą su žodžiais ir jų pasikartojimo 
 ![wordCount output](./screenshots/image-1.png)  
 
 Suvedus ***2.*** programa sugeneruoja failą su cross-reference tipo lentele. Joje nurodytas žodis ir kuriose teksto eilutėse jį galima rasti.  
-![crossReference](./screenshots/image-2.png)  
+![crossReference](./screenshots/image-2.png) 
 
 Suvedus ***3.*** programa sugeneruoja failą su URL adresų sąrašu.  
 ![urlList](./screenshots/image-3.png)
