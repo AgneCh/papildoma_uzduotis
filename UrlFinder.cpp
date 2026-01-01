@@ -16,7 +16,7 @@ void runUrlFinder(const std::string &inputFile,
         return;
     }
 
-    const std::regex urlPattern(R"(\b(?:https?://|www\.)?(?:[A-Za-z0-9-]+\.)+[A-Za-z]{2,}(?:\S*[^\s.,])?)");
+    const std::regex urlPattern(R"(\b(?:https?://|www\.)?(?:[A-Za-z0-9-]+\.)+[A-Za-z]{2,}(?:[^\s.,'"}\]\)]+)?)");
 
     std::set<std::string> urls;
     std::string line;

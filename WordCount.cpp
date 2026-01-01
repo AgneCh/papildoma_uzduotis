@@ -43,7 +43,7 @@ void runWordCount(const std::string &inputFile,
     // header
     out << std::left << std::setw(15) << "Word"
         << "Count\n";
-    out << std::string(15, '-') << ""
+    out << std::string(20, '-') << ""
         << std::string(10, '-') << "\n";
 
     for (const auto &[word, count] : counts)

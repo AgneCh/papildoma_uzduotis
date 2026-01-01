@@ -51,7 +51,7 @@ void runCrossReference(const std::string &inputFile, const std::string &outputFi
     // header
     out << std::left << std::setw(15) << "Word"
         << "Line numbers\n";
-    out << std::string(15, '-') << ""
+    out << std::string(20, '-') << ""
         << std::string(70, '-') << "\n";
 
     // rows
