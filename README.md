@@ -15,7 +15,8 @@ Taip pat buvo naudojamas `std::map` konteineris su `std::set` eilučių numeriam
 
 # URL adresų suradimas tekste
 Užduočiai buvo pasirinktas straipsnis ['I know about hit songs, hit numbers, hit sounds': The man who turned The Beatles into superstars](https://www.bbc.com/culture/article/20250820-the-man-behind-the-beatles-brian-epstein). Tekstas nukopijuotas į txt failą.  
-Šiai uzduoties daliai buvo naudojamas `std::set` konteineris, neleidžia pasikartojančių reikšmių ir automatiškai surikiuoja URL adresus abėcėlės tvarka.  
+Šiai uzduoties daliai buvo naudojamas `std::set` konteineris, neleidžia pasikartojančių reikšmių ir automatiškai surikiuoja URL adresus abėcėlės tvarka. 
+Taip pat naudojamas `std::unordered_set` laikyti visus galimus URL top-level domain (.com, .lt ir t.t.)
 
 
 ## Kaip veikia programa
